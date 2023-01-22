@@ -1,0 +1,78 @@
+@import "../../../scss/partials/varaible";
+@import "../../../scss/partials/mixin";
+
+.menu {
+  padding: 20px 40px;
+  margin: 0px 71.5px;
+  font-family: "Poppins", sans-serif;
+  .logo {
+    display: flex;
+    position: relative;
+    img {
+      margin-right: 25px;
+    }
+    form {
+      input {
+        width: 320px;
+        height: 42px;
+        padding: 12px 40px 12px 16px;
+        font-weight: 400;
+        font-size: 0.975rem;
+        line-height: 1.25rem;
+        border-radius: 15px;
+        border: 1px solid rgb(216, 212, 212);
+        box-sizing: border-box;
+      }
+      svg {
+        position: absolute;
+        top: 15px;
+        left: 450px;
+      }
+    }
+  }
+  .menuright {
+    ul {
+      display: flex;
+      justify-content: space-between;
+      gap: 2px;
+      li {
+        list-style: none;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        --tw-text-opacity: 1;
+        color: rgba(var(--c-neutral-700), var(--tw-text-opacity));
+        // padding-left: 1.25rem;
+        // padding-right: 1.25rem;
+        // padding-bottom: 0.5rem;
+        // padding-top: 0.5rem;
+        background-color: #f3f4f6;
+        border-radius: 17px;
+        padding: 8px 20px;
+        cursor: pointer;
+      }
+      .help {
+        background-color: transparent;
+
+        &:hover {
+          background-color: #f3f4f6;
+        }
+      }
+      button {
+        padding: 8px 20px;
+        margin: 0px 0px 0px 8px;
+        background-color: #0284c7;
+        border: none;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        color: white;
+        border-radius: 30px;
+      }
+      .icon {
+        svg {
+          font-size: 20px;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}

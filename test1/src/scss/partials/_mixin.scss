@@ -1,0 +1,13 @@
+@mixin _Img(
+  $width: null,
+  $height: null,
+  $border_radius: null,
+  $objsFit: null,
+  $objPos: null
+) {
+  width: $width;
+  height: $height;
+  border-radius: $border_radius;
+  object-fit: $objsFit;
+  object-position: $objPos;
+}

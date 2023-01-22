@@ -1,0 +1,13 @@
+.wolf h2 {
+  color: yellowgreen;
+  background-color: tomato;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style: none;
+} /*# sourceMappingURL=style.css.map */
