@@ -6,7 +6,15 @@ const Wolf = () => {
       <div className="container">
         <div className="row">
           <div className="left">
-            <h3>Wolf Face #1</h3>
+            <h2>Wolf Face #1</h2>
+          </div>
+          <div className="right">
+            <div className="image">
+              <img
+                src="https://chisnghiax.com/ciscryp/static/media/large1.501744b97da258c84cca.png"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>

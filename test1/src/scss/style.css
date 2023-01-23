@@ -1,8 +1,4 @@
-.wolf h2 {
-  color: yellowgreen;
-  background-color: tomato;
-}
-
+@import "../scss/pages/home/Wolfface/wolf.css";
 * {
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
